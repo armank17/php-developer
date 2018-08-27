@@ -2,7 +2,7 @@
 
 clone the proyect https://github.com/armank17/php-developer.git
 
-create a virtual host with path: "php-developer/prueba-backend/public"
+create a virtual host with path: "php-developer/prueba-backend/public" example: **http://prueba-backend.local**
 
 cd php-developer/prueba-backend composer install
 
@@ -17,6 +17,9 @@ php artisan db:seed (for create defaul users)
 
 
 Example webservices route
-- /
-- /register
-- /webservices/users?salary_start=1000&salary_end=1500&per_page=50&page=1
+
+http://prueba-backend.local/
+
+http://prueba-backend.local/register
+
+http://prueba-backend.local/webservices/users?salary_start=1000&salary_end=1500&per_page=50&page=1
